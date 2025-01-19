@@ -90,6 +90,19 @@ footer{
         display: none !important;
     }
 
+    .card-title{
+        display: none;
+    }
+
+    .oldImage{
+        width: 300px !important;
+        height: 300px;
+    }
+
+    
+#map{ height:300px; width: 300px;
+    padding: auto; }
+
   }
 
   @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -109,7 +122,7 @@ footer{
 
     .tax-toggle{
         display: none !important;
-    }
+    } 
     } 
 
   @media only screen and (min-width: 1025px) {
