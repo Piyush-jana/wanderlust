@@ -1,0 +1,3 @@
+Wanderlust: Your Ultimate Travel Haven
+
+Wanderlust is your gateway to discovering unique stays and adventures around the world. As a dynamic and user-friendly clone of Airbnb, Wanderlust is developed using state-of-the-art technologies including Express.js, Node.js, MongoDB, Bootstrap, and Vanilla CSS and HTML. Our platform leverages the Model-View-Controller (MVC) framework to offer seamless navigation, fast performance, and a visually stunning interface. Whether you're looking for a cozy cottage, a luxurious villa, or an extraordinary experience, Wanderlust connects you to memorable destinations and unparalleled hospitality.
