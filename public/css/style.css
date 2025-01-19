@@ -90,17 +90,17 @@ footer{
         display: none !important;
     }
 
-    .card-title{
-        display: none;
+    .listing-owner{
+        display: none !important;
     }
 
     .oldImage{
         width: 300px !important;
-        height: 300px;
+        height: 300px !important;
     }
 
     
-#map{ height:300px; width: 300px;
+#map{ height: 300px !important;; width: 300px !important; 
     padding: auto; }
 
   }
@@ -123,6 +123,12 @@ footer{
     .tax-toggle{
         display: none !important;
     } 
+    #map{ height: 300px !important;; width: 450px !important; 
+        padding: auto; }
+
+        .listing-owner{
+            display: none !important;
+        }
     } 
 
   @media only screen and (min-width: 1025px) {
@@ -197,7 +203,7 @@ footer{
 padding: auto; }
 
 .oldImage{
-    width: 500px !important;
+    width: 500px ;
     height: 300px;
 }
 
