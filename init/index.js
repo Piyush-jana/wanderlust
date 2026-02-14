@@ -70,4 +70,4 @@ const initDB = async()=>{
     console.log("data is initalized")
 }
 
-initDB();
+// initDB();
