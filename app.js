@@ -18,6 +18,9 @@ const reviewRouter = require("./routes/review.js");
 const listingRouter = require("./routes/listing .js");
 const userRouter = require("./routes/user.js");
 
+const Listing = require("./init/index");
+
+
 const dbUrl = process.env.ATLAS;
 
 async function main(){
@@ -80,6 +83,18 @@ app.use((req,res,next)=>{
 app.use("/listing",listingRouter);
 
 app.use("/listing/:id/review",reviewRouter);
+
+
+app.get("/init", async (req, res, next) => {
+    try {
+        await Listing.initDB();
+        req.flash("success", "Database initialized successfully.");
+        res.redirect("/listing");
+    } catch (err) {
+        next(err);
+    }
+});
+
 
 app.use("/",userRouter);
 
